@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 80px;
+    min-height: 100vh;
+}
+
+.foot {
+      width: 100%;
+      background-color: black;
+      height: 80px;
+      display: flex;
+      overflow: hidden;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      position: absolute;
+      bottom: 0px;
+    }
+ .foot .foot-elm {
+    width: 50%;
+    color: white;
+  }
+  .github {
+    color: white;
+    text-decoration: none;
+  }
+  .github:hover{
+    color: violet;
+    text-decoration: none;
+  }
